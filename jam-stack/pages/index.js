@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Link to="/blog"> Visit our beautiful BLOG</Link>
+        <Link href="/blog"> Visit our beautiful BLOG</Link>
       </main>
 
       <footer className={styles.footer}>
