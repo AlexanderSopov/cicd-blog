@@ -17,7 +17,3 @@ Reminder: Use environment variables for your credentials. DO NOT hard code them.
 
 If you have time, add a `buy` button that updates the stock quantity in the database.
 You do not need to add shoppingcart functionality, unless you want to :)
-
-
-
-

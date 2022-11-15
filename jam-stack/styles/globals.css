@@ -24,3 +24,19 @@ a {
     background: black;
   }
 }
+
+.container {
+  display: block;
+  width: 300px;
+  margin: auto;
+}
+
+.container * {
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}

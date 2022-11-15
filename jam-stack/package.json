@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "generate": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "contentful": "^9.2.11",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "next": "13.0.3",
