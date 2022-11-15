@@ -7,7 +7,6 @@ const getclient = () => createClient({
 export async function getStaticPaths () {
   const client = getclient()
   const res = await client.getEntries()
-  console.log('res is ', res.items[0])
   return {
     paths: res.items.map(
       entry => ({
